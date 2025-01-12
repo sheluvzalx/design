@@ -1,0 +1,62 @@
+
+.Section2 {
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    top: 110%;
+    width: 100%;
+    height: 100%;
+    background-image: url("./utils/uwp4625423.jpeg");
+}
+
+.S2Container {
+    width: 80%;
+    height: 80%;
+   background-color: rgba(0, 0, 0, 0.397);
+    border-radius: var(--border-radius-big);
+    backdrop-filter: blur(40px);
+    overflow: hidden;
+}
+
+.S2Container .item1 {
+    width: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    filter:opacity(30%);
+}
+
+
+.MainText {
+    filter: drop-shadow(5%);
+    & .title {
+        position: absolute;
+        top: 100px;
+        left: 200px;
+        font-weight: 900;
+        font-size: var(--header-height);
+    }
+
+    & .text {
+        position: absolute;
+        top: 400px;
+        left: 200px;
+        font-weight: 900;
+    }
+
+    & .desc {
+        position: absolute;
+        top: 200px;
+        width: 200px;
+        left: 200px;
+        font-weight: 900;
+    }
+}
+
+/* BY SPECTREEEEEEEE  */
